@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-time {
+    width: 350px;
+    height: 100px;
+    border: 4px solid #666;
+    display: flex;
+}
+
+.time {
+    border: 3px solid #666;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    margin: 0;
+    font-size: 50px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 160px;
+}
